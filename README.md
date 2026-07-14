@@ -19,7 +19,7 @@
 
 >This engine is built with a Dual-Vault Architecture to simulate secure M&A deal rooms. To review the dashboard and execution deck, please use the following demo credentials:
 >
->* **Active Project Name:** `Project_Apollo`
+>* **Active Project Name:** `Project_Vedic`
 >* **Workspace Password:** `admin`
 
 ---
