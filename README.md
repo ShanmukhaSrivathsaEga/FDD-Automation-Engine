@@ -15,6 +15,13 @@
 > 
 > 🔗 **[Click here to watch a 60-second video demonstration of the FDD Engine in action using dummy dataset simulations.]** *(Link to your Loom video or YouTube unlisted video here)*
 
+### 🔐 Live Demonstration Access
+
+>This engine is built with a Dual-Vault Architecture to simulate secure M&A deal rooms. To review the dashboard and execution deck, please use the following demo credentials:
+>
+>* **Active Project Name:** `Project_Apollo`
+>* **Workspace Password:** `admin`
+
 ---
 
 ## 💡 The Business Problem
