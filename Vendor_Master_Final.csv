@@ -1,0 +1,61 @@
+VENDOR_ID,PARTY_NAME,VENDOR_CATEGORY,TAX_ID_PAN,GSTIN_NUMBER,REGISTERED_ADDRESS,BANK_ACCOUNT_NO,IFSC_CODE,PAYMENT_TERMS
+VND-0001,Generic Vendor 1 Pvt Ltd,Logistics,VNDPN0001H,27VNDPN0001H1Z5,"Industrial Estate 1, City, State",900080000001,ICIC0002824,Net 60
+VND-0002,Generic Vendor 2 Pvt Ltd,Maintenance,VNDPN0002H,27VNDPN0002H1Z5,"Industrial Estate 2, City, State",900080000002,ICIC0001409,Immediate
+VND-0003,Generic Vendor 3 Pvt Ltd,Consulting,VNDPN0003H,27VNDPN0003H1Z5,"Industrial Estate 3, City, State",900080000003,ICIC0005506,Net 30
+VND-0004,Generic Vendor 4 Pvt Ltd,Maintenance,VNDPN0004H,27VNDPN0004H1Z5,"Industrial Estate 4, City, State",900080000004,ICIC0005012,Immediate
+VND-0005,Generic Vendor 5 Pvt Ltd,Maintenance,VNDPN0005H,27VNDPN0005H1Z5,"Industrial Estate 5, City, State",900080000005,ICIC0004657,Net 60
+VND-0006,Generic Vendor 6 Pvt Ltd,IT Services,VNDPN0006H,27VNDPN0006H1Z5,"Industrial Estate 6, City, State",900080000006,ICIC0003286,Net 60
+VND-0007,Generic Vendor 7 Pvt Ltd,Consulting,VNDPN0007H,27VNDPN0007H1Z5,"Industrial Estate 7, City, State",900080000007,ICIC0002679,Net 45
+VND-0008,Generic Vendor 8 Pvt Ltd,Consulting,VNDPN0008H,27VNDPN0008H1Z5,"Industrial Estate 8, City, State",900080000008,ICIC0009935,Net 30
+VND-0009,Generic Vendor 9 Pvt Ltd,Consulting,VNDPN0009H,27VNDPN0009H1Z5,"Industrial Estate 9, City, State",900080000009,ICIC0002424,Immediate
+VND-0010,Generic Vendor 10 Pvt Ltd,Maintenance,VNDPN0010H,27VNDPN0010H1Z5,"Industrial Estate 10, City, State",900080000010,ICIC0007912,Net 45
+VND-0011,Generic Vendor 11 Pvt Ltd,Logistics,VNDPN0011H,27VNDPN0011H1Z5,"Industrial Estate 11, City, State",900080000011,ICIC0001520,Immediate
+VND-0012,Generic Vendor 12 Pvt Ltd,Consulting,VNDPN0012H,27VNDPN0012H1Z5,"Industrial Estate 12, City, State",900080000012,ICIC0001488,Immediate
+VND-0013,Generic Vendor 13 Pvt Ltd,Office Supplies,VNDPN0013H,27VNDPN0013H1Z5,"Industrial Estate 13, City, State",900080000013,ICIC0002535,Net 45
+VND-0014,Generic Vendor 14 Pvt Ltd,Maintenance,VNDPN0014H,27VNDPN0014H1Z5,"Industrial Estate 14, City, State",900080000014,ICIC0004582,Net 45
+VND-0015,Nova Logistics Solutions,Logistics,BXZPT9876K,36BXZPT9876K1Z9,"Plot 45, Jubilee Hills, Hyderabad, Telangana",900080000015,ICIC0004811,Net 45
+VND-0016,Generic Vendor 16 Pvt Ltd,Logistics,VNDPN0016H,27VNDPN0016H1Z5,"Industrial Estate 16, City, State",900080000016,ICIC0009279,Net 45
+VND-0017,Generic Vendor 17 Pvt Ltd,Office Supplies,VNDPN0017H,27VNDPN0017H1Z5,"Industrial Estate 17, City, State",900080000017,ICIC0001434,Net 45
+VND-0018,Generic Vendor 18 Pvt Ltd,Office Supplies,VNDPN0018H,27VNDPN0018H1Z5,"Industrial Estate 18, City, State",900080000018,ICIC0004257,Immediate
+VND-0019,Generic Vendor 19 Pvt Ltd,IT Services,VNDPN0019H,27VNDPN0019H1Z5,"Industrial Estate 19, City, State",900080000019,ICIC0009928,Net 45
+VND-0020,Generic Vendor 20 Pvt Ltd,Logistics,VNDPN0020H,27VNDPN0020H1Z5,"Industrial Estate 20, City, State",900080000020,ICIC0007873,Net 30
+VND-0021,Generic Vendor 21 Pvt Ltd,Maintenance,VNDPN0021H,27VNDPN0021H1Z5,"Industrial Estate 21, City, State",900080000021,ICIC0004611,Net 60
+VND-0022,Generic Vendor 22 Pvt Ltd,Raw Materials,VNDPN0022H,27VNDPN0022H1Z5,"Industrial Estate 22, City, State",900080000022,ICIC0008359,Net 45
+VND-0023,Generic Vendor 23 Pvt Ltd,Logistics,VNDPN0023H,27VNDPN0023H1Z5,"Industrial Estate 23, City, State",900080000023,ICIC0005557,Net 45
+VND-0024,Generic Vendor 24 Pvt Ltd,IT Services,VNDPN0024H,27VNDPN0024H1Z5,"Industrial Estate 24, City, State",900080000024,ICIC0001106,Immediate
+VND-0025,Generic Vendor 25 Pvt Ltd,Office Supplies,VNDPN0025H,27VNDPN0025H1Z5,"Industrial Estate 25, City, State",900080000025,ICIC0003615,Net 45
+VND-0026,Generic Vendor 26 Pvt Ltd,Maintenance,VNDPN0026H,27VNDPN0026H1Z5,"Industrial Estate 26, City, State",900080000026,ICIC0007924,Net 45
+VND-0027,Generic Vendor 27 Pvt Ltd,Logistics,VNDPN0027H,27VNDPN0027H1Z5,"Industrial Estate 27, City, State",900080000027,ICIC0006574,Net 45
+VND-0028,Generic Vendor 28 Pvt Ltd,Raw Materials,VNDPN0028H,27VNDPN0028H1Z5,"Industrial Estate 28, City, State",900080000028,ICIC0005552,Immediate
+VND-0029,Generic Vendor 29 Pvt Ltd,Raw Materials,VNDPN0029H,27VNDPN0029H1Z5,"Industrial Estate 29, City, State",900080000029,ICIC0003547,Net 45
+VND-0030,Generic Vendor 30 Pvt Ltd,Consulting,VNDPN0030H,27VNDPN0030H1Z5,"Industrial Estate 30, City, State",900080000030,ICIC0004527,Net 60
+VND-0031,Generic Vendor 31 Pvt Ltd,Consulting,VNDPN0031H,27VNDPN0031H1Z5,"Industrial Estate 31, City, State",900080000031,ICIC0006514,Immediate
+VND-0032,Generic Vendor 32 Pvt Ltd,IT Services,VNDPN0032H,27VNDPN0032H1Z5,"Industrial Estate 32, City, State",900080000032,ICIC0002674,Net 60
+VND-0033,Generic Vendor 33 Pvt Ltd,Logistics,VNDPN0033H,27VNDPN0033H1Z5,"Industrial Estate 33, City, State",900080000033,ICIC0002519,Immediate
+VND-0034,Generic Vendor 34 Pvt Ltd,Logistics,VNDPN0034H,27VNDPN0034H1Z5,"Industrial Estate 34, City, State",900080000034,ICIC0007224,Net 45
+VND-0035,Generic Vendor 35 Pvt Ltd,Office Supplies,VNDPN0035H,27VNDPN0035H1Z5,"Industrial Estate 35, City, State",900080000035,ICIC0002584,Net 60
+VND-0036,Generic Vendor 36 Pvt Ltd,Office Supplies,VNDPN0036H,27VNDPN0036H1Z5,"Industrial Estate 36, City, State",900080000036,ICIC0006881,Immediate
+VND-0037,Generic Vendor 37 Pvt Ltd,Office Supplies,VNDPN0037H,27VNDPN0037H1Z5,"Industrial Estate 37, City, State",900080000037,ICIC0006635,Net 30
+VND-0038,Generic Vendor 38 Pvt Ltd,Consulting,VNDPN0038H,27VNDPN0038H1Z5,"Industrial Estate 38, City, State",900080000038,ICIC0005333,Net 45
+VND-0039,Generic Vendor 39 Pvt Ltd,Logistics,VNDPN0039H,27VNDPN0039H1Z5,"Industrial Estate 39, City, State",900080000039,ICIC0001711,Immediate
+VND-0040,Generic Vendor 40 Pvt Ltd,Logistics,VNDPN0040H,27VNDPN0040H1Z5,"Industrial Estate 40, City, State",900080000040,ICIC0008527,Net 30
+VND-0041,Generic Vendor 41 Pvt Ltd,Raw Materials,VNDPN0041H,27VNDPN0041H1Z5,"Industrial Estate 41, City, State",900080000041,ICIC0009785,Immediate
+VND-0042,Delta Trading Corp,Raw Materials,VNDPN0042H,27VNDPN0042H1Z5,"Industrial Estate 42, City, State",900080000042,ICIC0003045,Net 30
+VND-0043,Generic Vendor 43 Pvt Ltd,Maintenance,VNDPN0043H,27VNDPN0043H1Z5,"Industrial Estate 43, City, State",900080000043,ICIC0007201,Net 45
+VND-0044,Generic Vendor 44 Pvt Ltd,Consulting,VNDPN0044H,27VNDPN0044H1Z5,"Industrial Estate 44, City, State",900080000044,ICIC0002291,Net 60
+VND-0045,Generic Vendor 45 Pvt Ltd,Maintenance,VNDPN0045H,27VNDPN0045H1Z5,"Industrial Estate 45, City, State",900080000045,ICIC0005803,Net 30
+VND-0046,Generic Vendor 46 Pvt Ltd,Raw Materials,VNDPN0046H,27VNDPN0046H1Z5,"Industrial Estate 46, City, State",900080000046,ICIC0006925,Immediate
+VND-0047,Generic Vendor 47 Pvt Ltd,IT Services,VNDPN0047H,27VNDPN0047H1Z5,"Industrial Estate 47, City, State",900080000047,ICIC0004150,Net 45
+VND-0048,Generic Vendor 48 Pvt Ltd,Logistics,VNDPN0048H,27VNDPN0048H1Z5,"Industrial Estate 48, City, State",900080000048,ICIC0002139,Net 30
+VND-0049,Generic Vendor 49 Pvt Ltd,Raw Materials,VNDPN0049H,27VNDPN0049H1Z5,"Industrial Estate 49, City, State",900080000049,ICIC0001750,Immediate
+VND-0050,Generic Vendor 50 Pvt Ltd,Logistics,VNDPN0050H,27VNDPN0050H1Z5,"Industrial Estate 50, City, State",900080000050,ICIC0004733,Immediate
+VND-0051,Generic Vendor 51 Pvt Ltd,Office Supplies,VNDPN0051H,27VNDPN0051H1Z5,"Industrial Estate 51, City, State",900080000051,ICIC0005741,Immediate
+VND-0052,Generic Vendor 52 Pvt Ltd,IT Services,VNDPN0052H,27VNDPN0052H1Z5,"Industrial Estate 52, City, State",900080000052,ICIC0002307,Net 30
+VND-0053,Generic Vendor 53 Pvt Ltd,IT Services,VNDPN0053H,27VNDPN0053H1Z5,"Industrial Estate 53, City, State",900080000053,ICIC0004814,Net 30
+VND-0054,Generic Vendor 54 Pvt Ltd,Raw Materials,VNDPN0054H,27VNDPN0054H1Z5,"Industrial Estate 54, City, State",900080000054,ICIC0002654,Net 30
+VND-0055,Generic Vendor 55 Pvt Ltd,IT Services,VNDPN0055H,27VNDPN0055H1Z5,"Industrial Estate 55, City, State",900080000055,ICIC0007227,Net 60
+VND-0056,Generic Vendor 56 Pvt Ltd,Maintenance,VNDPN0056H,27VNDPN0056H1Z5,"Industrial Estate 56, City, State",900080000056,ICIC0005554,Net 30
+VND-0057,Generic Vendor 57 Pvt Ltd,IT Services,VNDPN0057H,27VNDPN0057H1Z5,"Industrial Estate 57, City, State",900080000057,ICIC0008428,Net 30
+VND-0058,Generic Vendor 58 Pvt Ltd,Logistics,VNDPN0058H,27VNDPN0058H1Z5,"Industrial Estate 58, City, State",900080000058,ICIC0006977,Net 30
+VND-0059,Generic Vendor 59 Pvt Ltd,Logistics,VNDPN0059H,27VNDPN0059H1Z5,"Industrial Estate 59, City, State",900080000059,ICIC0003664,Net 60
+VND-0060,Generic Vendor 60 Pvt Ltd,Logistics,VNDPN0060H,27VNDPN0060H1Z5,"Industrial Estate 60, City, State",900080000060,ICIC0007065,Net 30
