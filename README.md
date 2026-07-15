@@ -12,23 +12,26 @@
 
 ### 🔐 Live Demonstration Access
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fdd-automation-engine.streamlit.app/)
 
->[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fdd-automation-engine.streamlit.app/)
->Click on the icon to access the FDD-Automation-Engine on your web.
->
->This engine is built with a Dual-Vault Architecture to simulate secure M&A deal rooms.
->
->To review entire FDD platform Experience, use the sample files in the Gdrive link provided below:
->{Paste link here}
->
->To review only the dashboard and execution deck without uploading the files on your own, please use the following demo credentials:
->
->* **Active Project Name:** `Project_Vedic`
->* **Workspace Password:** `admin`
->
+**Experience the Live Platform:** Click the badge above to launch the production environment. 
+ 
+The engine features a **Dual-Vault Architecture** designed to simulate secure M&A deal rooms, isolating client-provided datasets from analyst workpapers.
 
 
 
+#### 📈 Method 1: Full Hands-On Data Pipeline **[RECOMMENDED]**
+To fully evaluate the engine's algorithmic ingestion, file-validation syntax, and forensic sweeping capabilities, we highly recommend running a live transaction test using our standardized sample datasets.
+
+1. **Download the Sample Data Package:** Download the test transaction ledgers and sub-ledgers from the [Google Drive Link]({Paste link here}).
+2. **Initialize Your Workspace:** Enter a new project name (e.g., `Project_Test`) and the master access password `admin` to unlock the platform.
+3. **Upload & Run:** Drop the sample files into the **5-Door Ingestion System** and click `🚀 EXECUTE FORENSIC SWEEP` to generate the interactive Quality of Earnings (QoE) bridge in real time.
+
+#### ⚡ Method 2: Instant Preview Mode
+If you prefer to bypass the file upload process and instantly inspect the pre-configured layout, analytics suite, and analyst workbench UI, you can log directly into our dedicated demo workspace:
+
+* **Active Project Name:** `Project_Vedic`
+* **Workspace Password:** `admin`
 ---
 
 ## 💡 The Business Problem
