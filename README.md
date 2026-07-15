@@ -9,18 +9,25 @@
 
 ---
 
-## 🎥 Demonstration
-
-> **Note to Reviewers:** Due to the strict confidentiality requirements of M&A transaction advisory, this application is not hosted on a live public server. 
-> 
-> 🔗 **[Click here to watch a 60-second video demonstration of the FDD Engine in action using dummy dataset simulations.]** *(Link to your Loom video or YouTube unlisted video here)*
 
 ### 🔐 Live Demonstration Access
 
->This engine is built with a Dual-Vault Architecture to simulate secure M&A deal rooms. To review the dashboard and execution deck, please use the following demo credentials:
+
+>[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fdd-automation-engine.streamlit.app/)
+>Click on the icon to access the FDD-Automation-Engine on your web.
+>
+>This engine is built with a Dual-Vault Architecture to simulate secure M&A deal rooms.
+>
+>To review entire FDD platform Experience, use the sample files in the Gdrive link provided below:
+>{Paste link here}
+>
+>To review only the dashboard and execution deck without uploading the files on your own, please use the following demo credentials:
 >
 >* **Active Project Name:** `Project_Vedic`
 >* **Workspace Password:** `admin`
+>
+
+
 
 ---
 
@@ -63,8 +70,7 @@ The machine does not replace the analyst; it accelerates them. The UI provides a
 *   **Backend & Data Processing:** Python, Pandas (Heavy vectorized data manipulation, dataframe merging, and missing data handling)
 *   **Frontend UI:** Streamlit (Custom hybrid multi-page architecture)
 *   **Database:** SQLite (Segregated Dual-Vault deployment)
-*   **Core Logic:** Regex string tokenization, financial variance mapping, exception-based routing.
-
+*   **Visualizations:** Plotly Graph Objects (M&A Standard EBITDA Bridge Waterfalls)
 ---
 
 ## ⚠️ Disclaimer
