@@ -1,4 +1,4 @@
-# Financial Due Diligence (FDD) Automation Engine
+# 🔎 Financial Due Diligence (FDD) Automation Engine
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data_Processing-150458.svg)](https://pandas.pydata.org/)
@@ -10,13 +10,13 @@ A workflow product for financial due diligence that helps teams clean messy acco
 
 ---
 
-## Live Demo
+## 🔐 Live Demo
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fdd-automation-engine.streamlit.app/)
 
 Sample files for a full workflow test are available in the repository’s **Releases** section under **Sample Data**.
 
-### Method 1: Full workflow test
+### 📈 Method 1: Full workflow test
 This is the best way to evaluate the product.
 
 1. Open the live app.
@@ -28,7 +28,7 @@ This is the best way to evaluate the product.
 7. Run the forensic sweep.
 8. Review the flags dashboard, analyst ledger, and downloadable QoE report.
 
-### Method 2: Instant preview mode
+### ⚡ Method 2: Instant preview mode
 If you want to inspect the layout directly without running the full upload process:
 
 - **Active Project Name:** `Project_Vedic`
@@ -36,7 +36,7 @@ If you want to inspect the layout directly without running the full upload proce
 
 ---
 
-## What It Does
+## 💡 What It Does
 
 This engine is built around three linked functions:
 
@@ -57,7 +57,7 @@ This makes the workflow more useful in practice, because diligence outputs often
 
 ---
 
-## Core Workflow
+## 🔄 Core Workflow
 
 The product follows a practical diligence flow:
 
@@ -73,7 +73,7 @@ The product follows a practical diligence flow:
 
 ---
 
-## Key Features
+## 🚀 Key Features
 
 ### Deal-based workspace
 Each project runs inside its own named workspace with a password gate and isolated data environment.
@@ -108,7 +108,7 @@ The platform generates downloadable output designed to support a Quality of Earn
 
 ---
 
-## Architectural Design
+## 🏗️ Architectural Design
 
 The product uses a dual-vault structure to separate source data from analyst workpapers:
 
@@ -119,7 +119,7 @@ This separation helps preserve a cleaner distinction between client-provided inp
 
 ---
 
-## Books and Files Used
+## 📚 Books and Files Used
 
 The workflow is designed for books commonly seen in diligence, including:
 
@@ -141,7 +141,7 @@ The workflow is designed for books commonly seen in diligence, including:
 
 ---
 
-## Technical Stack
+## 🛠️ Technical Stack
 
 - **Python**
 - **Pandas**
@@ -151,7 +151,7 @@ The workflow is designed for books commonly seen in diligence, including:
 
 ---
 
-## Current Status
+## 📌 Current Status
 
 This is a working workflow product with:
 
@@ -168,7 +168,7 @@ It is best understood as a finance workflow product built around due diligence m
 
 ---
 
-## Use Cases
+## 🎯 Use Cases
 
 Relevant use cases include:
 
@@ -181,6 +181,6 @@ Relevant use cases include:
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 This repository is a portfolio and demonstration project. Any sample data used for testing, demo workspaces, or walkthroughs is synthetic and created for demonstration purposes only. No confidential client data is intended to be processed or exposed through the public demo.
