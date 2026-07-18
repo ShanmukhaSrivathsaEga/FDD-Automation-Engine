@@ -1,80 +1,186 @@
-# 🔎 Financial Due Diligence (FDD) Automation Engine
+# Financial Due Diligence (FDD) Automation Engine
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data_Processing-150458.svg)](https://pandas.pydata.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B.svg)](https://streamlit.io/)
 [![SQLite](https://img.shields.io/badge/SQLite-Database-003B57.svg)](https://www.sqlite.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-Visuals-3F4F75.svg)](https://plotly.com/)
 
-**A high-performance algorithmic workspace engineered to eliminate manual sampling, sanitize messy ERP extractions, and accelerate the Quality of Earnings (QoE) process for M&A transactions.**
+A workflow product for financial due diligence that helps teams clean messy accounting data, run forensic accounting checks, and review flagged items inside a structured analyst workbench.
 
 ---
 
-
-### 🔐 Live Demonstration Access
+## Live Demo
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fdd-automation-engine.streamlit.app/)
 
-**Experience the Live Platform:** Click the badge above to launch the production environment. 
- 
-The engine features a **Dual-Vault Architecture** designed to simulate secure M&A deal rooms, isolating client-provided datasets from analyst workpapers.
+Sample files for a full workflow test are available in the repository’s **Releases** section under **Sample Data**.
 
+### Method 1: Full workflow test
+This is the best way to evaluate the product.
 
+1. Open the live app.
+2. Enter a new **Active Project Name**.
+3. Enter the workspace password: `admin`
+4. Upload the sample books and schedules.
+5. Map the required columns.
+6. Adjust runtime assumptions where needed.
+7. Run the forensic sweep.
+8. Review the flags dashboard, analyst ledger, and downloadable QoE report.
 
-#### 📈 Method 1: Full Hands-On Data Pipeline **[RECOMMENDED]**
-To fully evaluate the engine's algorithmic ingestion, file-validation syntax, and forensic sweeping capabilities, we highly recommend running a live transaction test using our standardized sample datasets.
+### Method 2: Instant preview mode
+If you want to inspect the layout directly without running the full upload process:
 
-1. **Download the Sample Data Package:** Download the test transaction ledgers and sub-ledgers from the [Google Drive Link]({Paste link here}).
-2. **Initialize Your Workspace:** Enter a new project name (e.g., `Project_Test`) and the master access password `admin` to unlock the platform.
-3. **Upload & Run:** Drop the sample files into the **5-Door Ingestion System** and click `🚀 EXECUTE FORENSIC SWEEP` to generate the interactive Quality of Earnings (QoE) bridge in real time.
-
-#### ⚡ Method 2: Instant Preview Mode
-If you prefer to bypass the file upload process and instantly inspect the pre-configured layout, analytics suite, and analyst workbench UI, you can log directly into our dedicated demo workspace:
-
-* **Active Project Name:** `Project_Vedic`
-* **Workspace Password:** `admin`
----
-
-## 💡 The Business Problem
-In standard transaction advisory, the most expensive hours of the due diligence process are spent manually cleaning fractured General Ledgers, handling missing data across millions of rows, and index-matching across operational subledgers. This manual bottleneck limits the time analysts can spend on actual commercial risk assessment.
-
-This engine automates the mechanical 80% of the FDD process. It instantly structures disorganized ledger outputs, executes rules-based variance screens, and enforces an immutable audit trail for partner review.
+- **Active Project Name:** `Project_Vedic`
+- **Workspace Password:** `admin`
 
 ---
 
-## 🏗️ Architectural Highlight: The Dual-Vault System
-To solve the cardinal risk of audit workpapers being accidentally overwritten or contaminated by raw client file re-uploads, this application utilizes a strictly segregated **Dual-Vault Architecture**:
+## What It Does
 
-*   **Vault A (`fdd_vault.db`):** An isolated database for raw, client-provided ERP data and initial file ingestion.
-*   **Vault B (`fdd_workpapers.db`):** An immutable, analyst-driven logging database that strictly houses the QoE bridges, manual pro-forma adjustments, and attached evidentiary files (.pdf/.xlsx). 
+This engine is built around three linked functions:
 
----
+### 1. Clean and normalize messy accounting data
+The platform helps repair raw ERP-style extracts and standardize uploaded books into a more usable structure. It supports column mapping, text cleanup, date repair, and normalized data export for downstream analysis.
 
-## 🚀 Core Engine Capabilities
+A cleaned **Normalized Databook** can be downloaded directly after repair and mapping.
 
-### 1. Intelligent Data Sanitization (Pandas Core)
-Raw client ledgers are rarely clean. The engine utilizes advanced Pandas workflows to act as a standalone data standardization tool. It automatically drops corrupted rows, fixes broken accounting date formats, normalizes text strings, and exports a unified "Normalized Databook" ready for deal team financial models.
+### 2. Run forensic accounting tests
+Once the books are structured, the engine runs a forensic sweep across the uploaded population. The logic is designed to identify accounting inconsistencies, suspicious transaction patterns, cut-off issues, provisioning gaps, hidden debt-style exposures, and other QoE-relevant risks.
 
-### 2. The Vectorized Forensic Sweep
-Shift seamlessly between **Ind AS, US GAAP, and IFRS**. The engine dynamically executes up to 25 specialized forensic protocols, instantly scanning 100% of the ledger population for:
-*   Revenue cut-off bleeds and year-end window dressing.
-*   Phantom vendors and related-party transaction clustering.
-*   Expected Credit Loss (ECL) shortfalls.
-*   Unrecorded shadow debt and working capital anomalies.
+The testing framework is also tied to a methodology wiki, so flagged items can be traced back to their test references and logic.
 
-### 3. Multi-Book Triangulation & AI Mapping
-Fraud and execution gaps rarely live in the General Ledger alone. The engine cross-references GL transactions against operational subledgers (e.g., Warehouse Dispatch Logs, HRMS Masters, Bank Statements). For highly unstructured legacy account names, an integrated AI fallback routes vague cost centers into strict QoE categories.
+### 3. Provide an analyst workbench
+The product does not stop at machine detection. Analysts can review flagged items, override machine amounts where needed, add rationale, attach evidence, and maintain a visible audit trail of judgment.
 
-### 4. Partner-Ready Analyst Workbench
-The machine does not replace the analyst; it accelerates them. The UI provides a dedicated workbench to explicitly waive pending risk flags, log manual discoveries, and attach mandatory documentation for any adjustments. Outputs directly to a multi-sheet, partner-ready QoE Excel report.
+This makes the workflow more useful in practice, because diligence outputs often depend on documented review rather than fully automated conclusions.
 
 ---
 
-## 🛠️ Technical Stack
-*   **Backend & Data Processing:** Python, Pandas (Heavy vectorized data manipulation, dataframe merging, and missing data handling)
-*   **Frontend UI:** Streamlit (Custom hybrid multi-page architecture)
-*   **Database:** SQLite (Segregated Dual-Vault deployment)
-*   **Visualizations:** Plotly Graph Objects (M&A Standard EBITDA Bridge Waterfalls)
+## Core Workflow
+
+The product follows a practical diligence flow:
+
+1. Create or enter a deal workspace.
+2. Upload the core books such as trial balance and general ledger.
+3. Map uploaded columns into the engine’s required structure.
+4. Adjust key runtime assumptions such as materiality, cut-off buffer, outlier sensitivity, capex floor, and ECL logic based on the case.
+5. Upload the account mapping schedule.
+6. Upload supporting books, directories, and registers.
+7. Run the forensic sweep.
+8. Review red, amber, and cleared items in the dashboard and analyst workbench.
+9. Export the final QoE-style report.
+
 ---
 
-## ⚠️ Disclaimer
-*This repository is a portfolio piece designed for educational and professional demonstration purposes. All data utilized in the demonstration video and sample files are synthetically generated dummy datasets. No proprietary, confidential, or live transaction data is processed or stored in this codebase.*
+## Key Features
+
+### Deal-based workspace
+Each project runs inside its own named workspace with a password gate and isolated data environment.
+
+### Multi-book ingestion
+The platform is designed to work with multiple books, not just the general ledger. This allows more realistic diligence-style checks across financial and operational support files.
+
+### Runtime assumption controls
+Users can adjust the logic of the engine while uploading and preparing data. This includes settings such as materiality, cut-off testing buffer, outlier sensitivity, capitalization thresholds, and expected credit loss assumptions.
+
+This matters because forensic output should adapt to the engagement context rather than force one rigid rule-set on every company.
+
+### Mapping-led standardization
+A dedicated mapping layer helps translate client-specific account names into standardized analytical buckets.
+
+### AI fallback prompt for account mapping
+Where ledger naming is messy or the chart of accounts is unclear, the platform provides a practical fallback prompt that helps analysts speed up the account-mapping exercise. It is meant to support judgment, not replace it.
+
+This is especially useful when dealing with legacy account names, vague ledger labels, or large-volume mapping exercises that would otherwise be slow to do manually.
+
+### Normalized databook export
+Users can repair and export a cleaner version of messy uploaded ledger data for downstream modeling or review.
+
+### Forensic test library
+The product runs a structured suite of accounting tests across the uploaded population and surfaces the output through dashboard references and a methodology wiki.
+
+### Analyst ledger and override trail
+Flagged items can be reviewed, modified, waived, or supported with uploaded evidence, while preserving machine output, analyst amount, variance, rationale, category, party reference, and timestamp.
+
+### QoE-style output
+The platform generates downloadable output designed to support a Quality of Earnings style review process, including summary math, categorized flags, and analyst workpapers.
+
+---
+
+## Architectural Design
+
+The product uses a dual-vault structure to separate source data from analyst workpapers:
+
+- **Vault A (`fdd_vault.db`)** stores raw uploaded books and ingestion-stage data.
+- **Vault B (`fdd_workpapers.db`)** stores analyst review outputs, overrides, evidence references, and workpaper-style logs.
+
+This separation helps preserve a cleaner distinction between client-provided inputs and analyst intervention.
+
+---
+
+## Books and Files Used
+
+The workflow is designed for books commonly seen in diligence, including:
+
+- General Ledger
+- Trial Balance
+- Profit and Loss
+- Balance Sheet
+- AR Aging
+- AP Aging
+- Payroll Register
+- HRMS Master
+- Lease Register
+- Related Party Directory
+- Bank Statement
+- Bank Reconciliation
+- Inventory Aging
+- Vendor Master
+- Other operational schedules and support files
+
+---
+
+## Technical Stack
+
+- **Python**
+- **Pandas**
+- **Streamlit**
+- **SQLite**
+- **Plotly**
+
+---
+
+## Current Status
+
+This is a working workflow product with:
+
+- deal-based workspace setup,
+- upload and mapping flows,
+- runtime assumption controls,
+- normalized databook export,
+- forensic flag generation,
+- analyst override and evidence logging,
+- methodology wiki support,
+- and downloadable QoE-style output.
+
+It is best understood as a finance workflow product built around due diligence mechanics, not just a dashboard demo.
+
+---
+
+## Use Cases
+
+Relevant use cases include:
+
+- Financial Due Diligence
+- Quality of Earnings support
+- Transaction advisory workflows
+- Accounting risk review
+- Analyst productivity tooling
+- Finance workflow automation
+
+---
+
+## Disclaimer
+
+This repository is a portfolio and demonstration project. Any sample data used for testing, demo workspaces, or walkthroughs is synthetic and created for demonstration purposes only. No confidential client data is intended to be processed or exposed through the public demo.
